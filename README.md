@@ -31,8 +31,6 @@ Key features that make it stand out:
 | **Browser contexts** | Needs separate driver sessions per user/session | Lightweight isolated browser contexts — fast multi-user/session testing |
 | **Language overhead** | Java — more verbose, requires Maven/Gradle + POM setup | TypeScript — less boilerplate, clean `async`/`await` syntax, large JS ecosystem |
 
-**Bottom line:** Playwright addresses most of Selenium's long-standing pain points — flaky waits, browser driver version mismatches, and slow debugging — natively, without extra plugins or configuration. Combined with TypeScript's lower setup overhead compared to Java + Maven/TestNG, this typically means faster test development, more reliable test runs, and quicker debugging cycles. This is why most new QA automation projects since 2022–23 default to Playwright + TypeScript unless there's a specific reason to stay with Selenium + Java (e.g. existing team expertise, a legacy framework, or a Java-only CI ecosystem).
-
 ---
 
 ## Tech Stack
