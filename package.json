@@ -2,12 +2,15 @@
   "name": "automation_with_playwright",
   "version": "1.0.0",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "test:login": "playwright test tests/login.spec.ts --headed --project=chromium --workers=1" 
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "description": "",
   "devDependencies": {
+    "@faker-js/faker": "^10.6.0",
     "@playwright/test": "^1.64.1",
     "@types/node": "^26.6.6"
   }
