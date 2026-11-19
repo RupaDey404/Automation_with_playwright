@@ -1,0 +1,1 @@
+//helper function is used to reduce the code duplication in the signIn function. It takes in the email and password as parameters and returns a promise that resolves to the user object if the sign-in is successful, or rejects with an error message if it fails.

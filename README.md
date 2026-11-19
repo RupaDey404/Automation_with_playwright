@@ -1,3 +1,4 @@
+
 # Playwright Automation (TypeScript)
 
 End-to-end test automation framework built with **Playwright** and **TypeScript**, featuring Page Object Model architecture, environment-based configuration, and CI integration via GitHub Actions.
@@ -41,6 +42,21 @@ Key features that make it stand out:
 - **CI/CD:** GitHub Actions
 
 ---
+
+## Project Structure
+
+| Folder | What goes here | Example |
+|---|---|---|
+| `Pages/` | Page classes (e.g. `LoginPage`, `InventoryPage`) containing locators and the actions for that page | `LoginPage.ts` |
+| `helper/` | Reusable functions and helpers, written as plain functions (not classes) | `signIn()`, `addToCart()` |
+| `data/` | Constants and test data | `base.ts` |
+| `utils/` | Small generic utilities (env loading, random data generators) | `env.ts` |
+| `tests/` | Test files only | `login.spec.ts` |
+
+---
+
+
+
 
 ## Getting Started
 
