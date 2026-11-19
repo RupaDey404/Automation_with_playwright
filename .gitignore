@@ -6,3 +6,11 @@ node_modules/
 /blob-report/
 /playwright/.cache/
 /playwright/.auth/
+
+# Environment files (secrets)
+.env
+.env.*
+!.env.example
+
+# Local env loader (not pushed)
+utils/env.ts

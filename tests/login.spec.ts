@@ -1,5 +1,5 @@
 import { test, expect } from '@playwright/test';
-import { LoginPage } from '../tests/loginPage';
+import { LoginPage } from '../Pages/loginPage';
 
 import {faker} from '@faker-js/faker';
 
@@ -35,6 +35,6 @@ test('should show error message with empty credentials', async ({ page }) => {
     await expect(loginPage.errorMessage).toHaveText('Epic sadface: Username is required');
 });
 
-test.use({ launchOptions: { slowMo: 1000 } });  
+
 
 
